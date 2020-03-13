@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toysrus</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initila-scale=1" />
+    <meta name="author" content="Anokh J Ajai" />
+    <style>
+      body {
+        font-size: 13px;
+      }
+      .deskView {
+        display: block;
+      }
+      .mobView {
+        display: none;
+      }
+      @media screen and (max-width: 640px) {
+        body {
+          font-size: 20px;
+        }
+        .deskView {
+          display: none;
+        }
+        .mobView {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body style="font-family:Arial, Helvetica, sans-serif ;background:grey">
+    <center>
+      <!-- Table1 Top Logo ,Banner starts -->
+      <table class="table1" width="500" bgcolor="#1450a0" cellsapcing="0" cellpadding="0">
+        <tr>
+          <td align="center" height="50px" valign="top">
+            <img style="width: 150px; height:42px; padding-top: 20px;" src="./assets/Toysrus_Logo.png" />
+          </td>
+        </tr>
+        <tr>
+          <td class="deskView" valign="top">
+            <!-- Banner Desktop view starts -->
+            <img
+              style="width: 500px; margin-left: -2px; margin-right: -2px; position: absolute; margin-top: -20px; "
+              src="./assets/greenBg.png"
+            />
+
+            <h2 class="bannerTop" style="position: relative; text-align: center; color: #1450a0; padding-top: 30px;">
+              Thanks for your order
+            </h2>
+            <p class="bannerTop" style="position: relative; text-align: center; color: #1450a0">
+              Order #: 1701 <br />
+              Order date: Thurs, 16 Feb, 2018
+            </p>
+            <!-- Banner Desktop view ends -->
+          </td>
+
+          <td class="mobView" valign="top">
+            <!-- Banner mobile view starts -->
+            <img
+              style="width: 500px; height: 200px; margin-left: -2px; margin-right: -2px; position: absolute; margin-top: -15px;"
+              src="./assets/greenBgMob.png"
+            />
+            <h2 class="bannerTop" style="position: relative; text-align: center; color: #1450a0; padding-top: 20px;">
+              Thanks for your order
+            </h2>
+            <p class="bannerTop" style="position: relative; text-align: center; color: #1450a0">
+              Order #: 1701 <br />
+              Order date: Thurs, 16 Feb, 2018
+            </p>
+            <!-- Banner mobile view ends -->
+          </td>
+        </tr>
+      </table>
+
+      <!-- Table2  Message stars -->
+      <table class="table2" width="500" bgcolor="white">
+        <tr>
+          <td align="left">
+            <h4 style="margin-left: 15px; padding-top: 50px;">Hi Mark,</h4>
+            <p style="margin-left: 15px; ">
+              We're currently working on your order, and we'll notify you when it's shipped out.
+              <br />
+              <br />
+              Thanks,
+              <br />
+              <strong>Toys 'R' Us Team</strong>
+            </p>
+            <hr noshade="noshade" size="1" style="color: #ebebeb; margin-top: 8%; " />
+          </td>
+        </tr>
+        <tr>
+          <td width="640px" align="left" valign="middle">
+            <h4 style="padding-left: 15px;">What happens next?</h4>
+          </td>
+        </tr>
+
+        <!-- Desktop view  mail phone  cart starts -->
+        <tr class="deskView">
+          <td width="30%" align="center" valign="middle">
+            <img style="width: 70px; height:70px; " src="./assets/mail.png" />
+            <p style="padding-left: 10px;">We'll send you an email when your order is on its way</p>
+          </td>
+          <td width="5%" align="center" valign="top">
+            <img style="width: 20px; height:20px;  padding-top: 30px;" src="./assets/arrowLeft.png" />
+          </td>
+          <td width="30%" align="center">
+            <img style="width: 70px; height:70px; " src="./assets/phone2.png" />
+            <p>Our courier will call you to arrange your delivery</p>
+          </td>
+          <td width="29%" align="center" bgcolor="#f7f7f7">
+            <img style="width: 70px; height:70px; " src="./assets/cart.png" />
+            <p>
+              <strong>
+                Ships within 2-4 buisness days
+              </strong>
+            </p>
+          </td>
+        </tr>
+        <!-- Desktop view  mail phone  cart ends -->
+
+        <!-- Mobile view  mail phone  cart starts -->
+        <tr class="mobView" style="padding-right:5%">
+          <td width="40%" align="center">
+            <img style="width: 150px; height:150px; " src="./assets/mail.png" /><br />
+            <img style="width: 50px; height:50px;" src="./assets/arrowDown.png" />
+          </td>
+          <td width="60%" align="left" valign="top" style="padding-top: 10px;">
+            <p style="font-size:27px">We'll send you an email when your order is on its way</p>
+          </td>
+        </tr>
+        <tr class="mobView" style="padding-right:5%">
+          <td width="40%" align="center">
+            <img style="width: 150px; height:150px; " src="./assets/phone2.png" />
+          </td>
+          <td width="60%" align="left" valign="middle">
+            <p style="font-size:27px">Our courier will call you to arrange your delivery</p>
+          </td>
+        </tr>
+        <tr
+          class="mobView"
+          style="padding-right:5% ;padding-top:20px; padding-left: 3px; border-radius: 4px;"
+          bgcolor="#f7f7f7"
+        >
+          <td width="40%" align="center">
+            <img style="width: 150px; height:150px; " src="./assets/cart.png" />
+          </td>
+          <td width="60%" align="left" valign="middle">
+            <p style="font-size:27px">
+              <strong>
+                Shipping within 2-4 buisness days
+              </strong>
+            </p>
+          </td>
+        </tr>
+        <!-- Mobile view  mail phone  cart ends -->
+      </table>
+
+      <table width="500" bgcolor="#f7f7f7">
+        <tr>
+          <td align="left" colspan="5" style=" padding-left:10px">
+            <h4>Your order details</h4>
+          </td>
+        </tr>
+        <!-- Your order details dektop view starts -->
+        <tr class="deskView">
+          <td>
+            <table width="480" bgcolor="white" align="center" style="border-radius: 4px;">
+              <tr bgcolor="white">
+                <td align="left" width="20%" rowspan="4" height="10">
+                  <img src="./assets/pikachu.png" style="width: 100px; height: 100px;" />
+                </td>
+                <td align="left" width="60%" valign="top" style="margin-left:-2px" height="10" colspan="2">
+                  <p>Meccano-Erector--MeccaSpider Robot</p>
+                </td>
+              </tr>
+              <tr>
+                <td height="20">
+                  Qty :
+                  <strong>1</strong>
+                </td>
+                <td align="right" style="padding-right: 15px;">
+                  <strong>330 AED</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <hr style="width: 95% ; color:#ebebeb ;" size="2" noshade="noshade" />
+                </td>
+              </tr>
+              <tr>
+                <td height="50">
+                  <strong>Item total</strong>
+                </td>
+                <td align="right" style="padding-right: 15px;">
+                  <strong>330 AED</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr style="width: 95% ; color:#ebebeb ;" size="2" noshade="noshade" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px;">Subtotal</td>
+                <td style="padding-right: 15px;" align="right">330 AED</td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px;">Delivery cost</td>
+                <td style="padding-right: 15px;" align="right">Free</td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px; font-size: 17px; padding-top: 10px;">
+                  <strong>Order total</strong>
+                </td>
+                <td style="padding-right: 15px; font-size: 17px;" align="right">
+                  <strong>330 AED </strong>
+                </td>
+              </tr>
+              <tr style="color:#999999">
+                <td colspan="2" style="padding-left: 15px; ">Includes 5% VAT</td>
+                <td style="padding-right: 15px;" align="right">16.5 AED</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Your order details desk view ends -->
+        <!-- Your order details mob view starts -->
+        <tr class="mobView">
+          <td>
+            <table width="480" bgcolor="white" align="center" style="border-radius: 4px;">
+              <tr bgcolor="white">
+                <td width="30%" rowspan="2">
+                  <img src="./assets/pikachu.png" style="width: 100px; height: 100px;" />
+                </td>
+                <td align="left" width="60%" valign="top" style="margin-left:-2px" height="10" colspan="2">
+                  <p>Meccano-Erector--MeccaSpider Robot</p>
+                </td>
+              </tr>
+              <tr>
+                <td>Qty : <strong>1</strong></td>
+                <td align="right" style="padding-right: 15px;">
+                  <strong>330 AED</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr style="width: 95% ; color:#ebebeb ;" size="2" noshade="noshade" />
+                </td>
+              </tr>
+              <tr>
+                <td height="50" style="padding-left: 15px;">
+                  <strong>Item total</strong>
+                </td>
+                <td></td>
+                <td align="right" style="padding-right: 15px;">
+                  <strong>330 AED</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr style="width: 100% ; color:#ebebeb ;" size="2" noshade="noshade" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px;">Subtotal</td>
+                <td style="padding-right: 15px;" align="right">330 AED</td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px;">Delivery cost</td>
+                <td style="padding-right: 15px;" align="right">Free</td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-left: 15px; font-size: 24px; padding-top: 15px;">
+                  <strong>Order total</strong>
+                </td>
+                <td style="padding-right: 15px; font-size: 24px;" align="right">
+                  <strong>330 AED </strong>
+                </td>
+              </tr>
+              <tr style="color:#999999">
+                <td colspan="2" style="padding-left: 15px; ">Includes 5% VAT</td>
+                <td style="padding-right: 15px; padding-bottom:30px;" align="right">16.5 AED</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Your order details mob view ends -->
+        <!-- Delivery details Desktop view starts -->
+        <tr class="deskView">
+          <td>
+            <table width="480" bgcolor="#f7f7f7" align="center" style="border-radius: 4px;" cellpadding="2" valign="top">
+              <tr>
+                <td
+                  bgcolor="white"
+                  style="padding-left: 15px; padding-top: 15px; font-size: 10px;"
+                  rowspan="3"
+                  valign="top"
+                  width="50%"
+                >
+                  <strong>
+                    Your delivery address
+                  </strong>
+                  <p>
+                    Mr Kobylanski <br />
+                    410, Goldcrest Views 1,Cluster V ,Jumeirah <br />
+                    Lake Towers, Dubai <br />
+                    Makani : 3000 9532<br /><br />
+                    <i>'Enter the building and ask for the service elevator at the desk'</i>
+                  </p>
+                </td>
+                <td width="7"></td>
+                <td bgcolor="white" style="padding-left: 15px; padding-top: 15px; padding-right: 25px; " valign="top">
+                  <strong>
+                    Your payment details
+                  </strong>
+                  <table wdith="100">
+                    <tr>
+                      <td style="padding-top: 10px; padding-right: 10px;" rowspan="2" height="30">
+                        <img width="40px" src="./assets/visa.png" />
+                      </td>
+                      <td colspan="2" style="padding-top: 8px;">
+                        <strong style="font-size:10px;">Mark Kobylanski</strong>
+                      </td>
+                    </tr>
+                    <tr style="color:#666666">
+                      <td style="font-size:10px ;padding-bottom:8px">
+                        Ends 9127
+                      </td>
+                      <td style="font-size:10px ;padding-bottom:8px ;padding-left: 3px;">
+                        Expires 12/22
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="7"></td>
+              </tr>
+              <tr>
+                <td width="7"></td>
+                <td bgcolor="white" style="padding-left: 15px; padding-top: 15px; font-size: 10px;" valign="top">
+                  <strong>
+                    Delivery contact details
+                  </strong>
+                  <br />
+                  <br />
+                  Mr Mark Kobylanski<br />
+                  Mobile: +971 504502617<br />
+                  TRN: XXXXXXXXXXX
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Delivery details Desktop view ends -->
+        <!-- Delivery details Mobile view starts -->
+        <tr class="mobView">
+          <td>
+            <table width="480" bgcolor="#f7f7f7" align="center" style="border-radius: 4px;" cellpadding="2" valign="top">
+              <td bgcolor="#f7f7f7" height="7"></td>
+
+              <tr>
+                <td bgcolor="white" style="padding-left: 20px; padding-top: 15px; " valign="top">
+                  <strong>
+                    Your delivery address
+                  </strong>
+                  <p>
+                    Mr Kobylanski <br />
+                    410, Goldcrest Views 1,Cluster V ,Jumeirah <br />
+                    Lake Towers, Dubai <br />
+                    Makani : 3000 9532<br /><br />
+                    <i>'Enter the building and ask for the service elevator at the desk'</i>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#f7f7f7" height="7"></td>
+              </tr>
+              <tr>
+                <td bgcolor="white" style="padding-left: 20px; padding-top: 15px; padding-right: 25px; " valign="top">
+                  <strong>
+                    Your payment details
+                  </strong>
+                  <table wdith="100">
+                    <tr>
+                      <td style="padding-top: 18px; padding-right: 20px;" rowspan="2" height="30">
+                        <img width="90px" src="./assets/visa.png" />
+                      </td>
+                      <td colspan="2" style="padding-top: 18px;">
+                        <strong>Mark Kobylanski</strong>
+                      </td>
+                    </tr>
+                    <tr style="color:#666666">
+                      <td style="padding-bottom:8px">
+                        Ends 9127
+                      </td>
+                      <td style="padding-bottom:8px ;padding-left: 3px;">
+                        Expires 12/22
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#f7f7f7" height="7"></td>
+              </tr>
+              <tr>
+                <td bgcolor="white" style="padding-left: 20px; padding-top: 15px; padding-bottom: 20px;" valign="top">
+                  <strong>
+                    Delivery contact details
+                  </strong>
+                  <br />
+                  <br />
+                  Mr Mark Kobylanski<br />
+                  Mobile: +971 504502617<br />
+                  TRN: XXXXXXXXXXX
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#f7f7f7" height="7"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Delivery details Mobile view ends -->
+      </table>
+
+      <table width="500" bgcolor="white" align="center" style="padding-bottom: 30px;">
+        <tr>
+          <td align="center" colspan="2">
+            <h2>
+              Changed your mind ?
+            </h2>
+          </td>
+        </tr>
+        <!-- Change your Mind Deskview starts -->
+        <tr class="deskView">
+          <td align="center" colspan="2">
+            <p style="padding-left: 35px; padding-right: 35px; font-size: 12px;">
+              You can also get in touch with us at 800 869 778 742. We're available from 9am to 9pm (GST), 7 days a week.
+            </p>
+          </td>
+        </tr>
+        <tr class="deskView">
+          <td align="center" width="50%">
+            <button
+              style="border: 1px solid #dbdbdb; padding-bottom:10px; padding-left:10px; padding-right:10px; padding-top:10px ;background-color: #f7f7f7; border-radius: 4px; height: 70px; margin-left: 20px;"
+            >
+              <strong>
+                How does the 30-Day returns work?
+              </strong>
+            </button>
+          </td>
+          <td align="center" width="50%">
+            <button
+              style="border: 1px solid #dbdbdb; padding-bottom:10px; padding-left:10px; padding-right:10px; padding-top:10px ;background-color: #f7f7f7; border-radius: 4px; height: 70px;"
+            >
+              <strong>
+                How can I cancel my order?
+              </strong>
+            </button>
+          </td>
+        </tr>
+        <!-- Change your Mind Deskview ends -->
+        <!-- Change your Mind mobview starts -->
+
+        <tr class="mobView">
+          <td align="center" colspan="2">
+            <p style="padding-left: 50px; padding-right: 50px;">
+              You can also get in touch with us at 800 869 778 742. We're available from 9am to 9pm (GST), 7 days a week.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" colspan="2" class="mobView">
+            <button
+              style="border: 1px solid #dbdbdb; padding-bottom:10px; padding-left:10px; padding-right:10px; padding-top:10px ;background-color: #f7f7f7; border-radius: 4px; width: 350px; height: 100px; font-size: 20px;"
+            >
+              <strong>
+                How does the 30-Day returns work?
+              </strong>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" colspan="2" class="mobView" style="padding-top: 20px;">
+            <button
+              style="border: 1px solid #dbdbdb; padding-bottom:10px; padding-left:10px; padding-right:10px; padding-top:10px ;background-color: #f7f7f7; border-radius: 4px; width: 350px; height: 100px; font-size: 20px;"
+            >
+              <strong>
+                How can I cancel my order?
+              </strong>
+            </button>
+          </td>
+        </tr>
+        <!-- Change your Mind mobview ends -->
+      </table>
+
+      <!-- Footer Deskview starts -->
+      <table width="500" bgcolor="#1450a0" style="padding-bottom: 30px; color:white" class="deskView">
+        <tr>
+          <td align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>Need Help? </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="left">
+              <tr>
+                <td align="right" width="20%"><img src="./assets/MailWhite.png" width="30px" height="30px" /></td>
+                <td width="20%" style="padding-left: 10px;"><strong>Contact us</strong></td>
+                <td width="5%"><img src="./assets/phone.png" width="30px" height="30px" /></td>
+                <td width="25%" style="padding-left: 10px;"><strong>800 869 778 742</strong></td>
+                <td width="5%"><img src="./assets/questionMark.png" width="30px" height="30px" /></td>
+                <td><strong>Help</strong></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>
+              Join us on
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="center">
+              <tr>
+                <td width="30%"></td>
+                <td align="center"><img src="./assets/facebook.png" width="35px" height="35px" /></td>
+                <td align="center"><img src="./assets/twitter.png" width="35px" height="35px" /></td>
+                <td align="center"><img src="./assets/youtube.png" width="35px" height="35px" /></td>
+                <td align="center"><img src="./assets/instagram.png" width="35px" height="35px" /></td>
+                <td width="30%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>
+              Another way to shop
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="center">
+              <tr>
+                <td width="30%"></td>
+                <td align="center"><img src="./assets/googlePlayIcon1.png" width="130px" /></td>
+                <td align="center"><img src="./assets/appStoreIcon.png" width="130px" /></td>
+                <td width="30%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="center">
+              <tr>
+                <td width="5%"></td>
+                <td align="center" width="15%">Terms & conditions</td>
+                <td align="center" width="1%">|</td>
+                <td align="center" width="20%">Privacy & security policy</td>
+                <td align="center" width="1%">|</td>
+                <td align="center" width="15%">© Copyright 2019</td>
+                <td width="5%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Footer Deskview ends -->
+      <!-- Footer Mobview starts -->
+      <table width="500" bgcolor="#1450a0" style="padding-bottom: 30px; color:white" class="mobView">
+        <tr>
+          <td align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>Need Help? </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="500" style="background-size: contain;">
+              <tr>
+                <td align="center" width="33%">
+                  <img src="./assets/MailWhite.png" width="30px" height="30px" />
+                </td>
+                <td align="center" width="30%">
+                  <img src="./assets/phone.png" width="30px" height="30px" />
+                </td>
+                <td align="center" width="33%">
+                  <img src="./assets/questionMark.png" width="30px" height="30px" />
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top">
+                  <strong>Contact us</strong>
+                </td>
+                <td align="center" valign="top">
+                  <strong>800 869 778 742</strong>
+                </td>
+                <td align="center" valign="top">
+                  <strong>Help</strong>
+                </td>
+              </tr>
+              <tr></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>
+              Join us on
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="center">
+              <tr>
+                <td width="5%"></td>
+
+                <td align="center"><img src="./assets/facebook.png" width="70px" height="70px" /></td>
+                <td align="center"><img src="./assets/twitter.png" width="70px" height="70px" /></td>
+                <td align="center"><img src="./assets/youtube.png" width="70px" height="70px" /></td>
+                <td align="center"><img src="./assets/instagram.png" width="70px" height="70px" /></td>
+                <td width="5%"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            <strong>
+              Another way to shop
+            </strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table bgcolor="#1450a0" width="490" align="center">
+              <tr>
+                <td align="center"><img src="./assets/googlePlayIcon1.png" width="200px" /></td>
+                <td align="center" style="padding-right: 10px;"><img src="./assets/appStoreIcon.png" width="200px" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            Terms & conditions
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            Privacy & security policy
+          </td>
+        </tr>
+        <tr>
+          <td width="500" align="center" style="padding-top: 20px; padding-bottom: 20px;">
+            © Copyright 2019
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
