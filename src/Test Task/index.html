@@ -31,30 +31,42 @@
   <body style="font-family:Arial, Helvetica, sans-serif ;background:grey">
     <center>
       <!-- Table1 Top Logo ,Banner starts -->
-      <table class="table1" width="500" bgcolor="#1450a0" cellsapcing="0" cellpadding="0">
-        <tr>
-          <td align="center" height="80px" valign="top">
+      <table
+        class="table1"
+        width="500"
+        height="100"
+        bgcolor="#1450a0"
+        cellsapcing="0"
+        cellpadding="0"
+        style="border-collapse: collapse;"
+      >
+        <tr bgcolor="#1450a0">
+          <td align="center" height="60" valign="bottom" width="500">
             <img
-              style="width: 150px; height:42px; padding-top: 20px;"
+              style="width: 150px; height:42px; "
               src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/Toysrus_Logo.png"
             />
           </td>
         </tr>
         <tr>
-          <!-- Banner Desktop view starts -->
           <td
             class="deskView"
+            width="100%"
             valign="top"
-            bgcolor="#bed731"
-            width="500"
-            height="150"
-            style="margin-left: -2px; margin-right: -2px;"
-          >
-            <img
-              style="width: 500px;  margin-top: -30px; "
-              src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgTop.png"
-            />
+            bgcolor=""
+            style="background-image: url(https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgTop.png); height: 50px;"
+          ></td>
+          <td
+            class="mobView"
+            width="100%"
+            valign="top"
+            bgcolor=""
+            style="background-image: url(https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgMobTop.png); height: 50px;"
+          ></td>
+        </tr>
 
+        <tr bgcolor="#bed731">
+          <td>
             <h2 class="bannerTop" style="text-align: center; color: #1450a0; padding-top: 5px; font-size: 26px;">
               Thanks for your order
             </h2>
@@ -62,47 +74,31 @@
               Order #: 1701 <br />
               Order date: Thurs, 16 Feb, 2018
             </p>
-            <img
-              style="width: 501px; "
-              src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgBottom.png"
-            />
           </td>
-          <!-- Banner Desktop view ends -->
-
+        </tr>
+        <tr>
+          <td
+            class="deskView"
+            width="100%"
+            valign="top"
+            bgcolor="#ffffff"
+            style="background-image: url(https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgBottom.png); height: 50px;"
+          ></td>
           <td
             class="mobView"
+            width="100%"
             valign="top"
-            bgcolor="#bed731"
-            width="500"
-            height="200"
-            style="margin-left: -2px; margin-right: -2px;"
-          >
-            <!-- Banner mobile view starts -->
-            <img
-              style="width: 500px;  margin-top: -30px; "
-              src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgMobTop.png"
-            />
-            <h2 class="bannerTop" style="position: relative; text-align: center; color: #1450a0; ">
-              Thanks for your order
-            </h2>
-            <p class="bannerTop" style="position: relative; text-align: center; color: #1450a0">
-              Order #: 1701 <br />
-              Order date: Thurs, 16 Feb, 2018
-            </p>
-            <img
-              style="width: 501px; "
-              src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgMobBottom.png"
-            />
-            <!-- Banner mobile view ends -->
-          </td>
+            bgcolor="#ffffff"
+            style="background-image: url(https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/greenBgMobBottom.png); height: 50px;"
+          ></td>
         </tr>
       </table>
 
       <!-- Table2  Message stars -->
-      <table class="table2" width="500" bgcolor="white">
+      <table class="table3" width="500" bgcolor="white">
         <tr>
-          <td align="left">
-            <h4 style="margin-left: 15px; padding-top: 50px;">Hi Mark,</h4>
+          <td align="left" colspan="5">
+            <h4 style="margin-left: 15px; ">Hi Mark,</h4>
             <p style="margin-left: 15px; ">
               We're currently working on your order, and we'll notify you when it's shipped out.
               <br />
@@ -160,7 +156,7 @@
         <tr class="mobView" style="padding-right:5%">
           <td width="40%" align="center">
             <img
-              style="width: 150px; height:150px; "
+              style="width: 100px; height:100px; "
               src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/mail.png"
             /><br />
             <img
@@ -169,18 +165,18 @@
             />
           </td>
           <td width="60%" align="left" valign="top" style="padding-top: 10px;">
-            <p style="font-size:27px">We'll send you an email when your order is on its way</p>
+            <p style="font-size:20px">We'll send you an email when your order is on its way</p>
           </td>
         </tr>
         <tr class="mobView" style="padding-right:5%">
           <td width="40%" align="center">
             <img
-              style="width: 150px; height:150px; "
+              style="width: 100px; height:100px; "
               src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/phone2.png"
             />
           </td>
           <td width="60%" align="left" valign="middle">
-            <p style="font-size:27px">Our courier will call you to arrange your delivery</p>
+            <p style="font-size:20px">Our courier will call you to arrange your delivery</p>
           </td>
         </tr>
         <tr
@@ -190,12 +186,12 @@
         >
           <td width="40%" align="center">
             <img
-              style="width: 150px; height:150px; "
+              style="width: 100px; height:100px; "
               src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/cart.png"
             />
           </td>
           <td width="60%" align="left" valign="middle">
-            <p style="font-size:27px">
+            <p style="font-size:20px">
               <strong>
                 Shipping within 2-4 buisness days
               </strong>
@@ -222,7 +218,7 @@
                     style="width: 100px; height: 100px;"
                   />
                 </td>
-                <td align="left" width="60%" valign="top" style="margin-left:-2px" height="10" colspan="2">
+                <td align="left" width="60%" valign="top" height="10" colspan="2">
                   <p>Meccano-Erector--MeccaSpider Robot</p>
                 </td>
               </tr>
@@ -288,7 +284,7 @@
                     style="width: 100px; height: 100px;"
                   />
                 </td>
-                <td align="left" width="60%" valign="top" style="margin-left:-2px" height="10" colspan="2">
+                <td align="left" width="60%" valign="top" height="10" colspan="2">
                   <p>Meccano-Erector--MeccaSpider Robot</p>
                 </td>
               </tr>
@@ -656,7 +652,7 @@
                 <td width="30%"></td>
                 <td align="center">
                   <img
-                    src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/googlePlayIcon1.png"
+                    src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/googlePlayIcon.png"
                     width="130px"
                   />
                 </td>
@@ -698,42 +694,46 @@
         </tr>
         <tr>
           <td>
-            <table width="500" style="background-size: contain;">
+            <table width="500">
               <tr>
-                <td align="center" width="33%">
+                <td align="center" width="170">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/MailWhite.png"
                     width="30px"
                     height="30px"
                   />
+                  <br />
+                  <strong>Contact us</strong>
                 </td>
-                <td align="center" width="30%">
+                <td align="center" width="160">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/phone.png"
                     width="30px"
                     height="30px"
                   />
+                  <br />
+                  <strong>800 869 778 742</strong>
                 </td>
-                <td align="center" width="33%">
+                <td align="center" width="170">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/questionMark.png"
                     width="30px"
                     height="30px"
                   />
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="top">
-                  <strong>Contact us</strong>
-                </td>
-                <td align="center" valign="top">
-                  <strong>800 869 778 742</strong>
-                </td>
-                <td align="center" valign="top">
+                  <br />
                   <strong>Help</strong>
                 </td>
               </tr>
-              <tr></tr>
+              <!-- <tr>
+                <td align="center" valign="top" width="33%">
+                 
+                </td>
+                <td align="center" valign="top" width="33%">
+                </td>
+                <td align="center" valign="top" width="33%">
+                
+                </td>
+              </tr> -->
             </table>
           </td>
         </tr>
@@ -753,29 +753,29 @@
                 <td align="center">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/facebook.png"
-                    width="70px"
-                    height="70px"
+                    width="50px"
+                    height="50px"
                   />
                 </td>
                 <td align="center">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/twitter.png"
-                    width="70px"
-                    height="70px"
+                    width="50px"
+                    height="50px"
                   />
                 </td>
                 <td align="center">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/youtube.png"
-                    width="70px"
-                    height="70px"
+                    width="50px"
+                    height="50px"
                   />
                 </td>
                 <td align="center">
                   <img
                     src="https://raw.githubusercontent.com/anokhjajai/htmlTraining/master/src/Test%20Task/assets/instagram.png"
-                    width="70px"
-                    height="70px"
+                    width="50px"
+                    height="50px"
                   />
                 </td>
                 <td width="5%"></td>
